@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="6.062" tests="6" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\gopik\eclipse-workspace\E2E_Framework\target\test-classes;C:\Users\gopik\eclipse-workspace\E2E_Framework\target\classes;C:\Users\gopik\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\gopik\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gopik\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gopik\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gopik\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gopik\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\gopik\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\gopik\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\gopik\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\gopik\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\gopik\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\gopik\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\Users\gopik\.m2\repository\org\apache\groovy\groovy\4.0.23\groovy-4.0.23.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\gopik\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\gopik\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\gopik\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\gopik\AppData\Local\Temp\surefire6189089648335544346\surefirebooter-20241218194506546_3.jar C:\Users\gopik\AppData\Local\Temp\surefire6189089648335544346 2024-12-18T19-45-06_317-jvmRun1 surefire-20241218194506546_1tmp surefire_0-20241218194506546_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\gopik\eclipse-workspace\E2E_Framework\target\test-classes;C:\Users\gopik\eclipse-workspace\E2E_Framework\target\classes;C:\Users\gopik\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\gopik\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\gopik\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\gopik\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\gopik\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\gopik\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\gopik\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\gopik\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\gopik\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\gopik\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\gopik\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\gopik\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\gopik\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.1\jackson-databind-2.18.1.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.1\jackson-annotations-2.18.1.jar;C:\Users\gopik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.1\jackson-core-2.18.1.jar;C:\Users\gopik\.m2\repository\org\apache\groovy\groovy\4.0.23\groovy-4.0.23.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\gopik\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\gopik\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\gopik\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\gopik\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\gopik\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\gopik\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gopik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\gopik\eclipse-workspace\E2E_Framework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\gopik\AppData\Local\Temp\surefire6189089648335544346\surefirebooter-20241218194506546_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
+    <property name="user.name" value="gopik"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\gopik\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\gopik\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="user.dir" value="C:\Users\gopik\eclipse-workspace\E2E_Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\gopik\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.4\bin;;C:\Users\gopik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gopik\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Get all Categories" classname="Validating Ecom API;s" time="3.508">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1734569110&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=TsirH%2FpvbCcaXtPPainlVWAh2kYuq1oZUnXFnIGuFz0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1734569110&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=TsirH%2FpvbCcaXtPPainlVWAh2kYuq1oZUnXFnIGuFz0%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 4196
+Etag: W/"1064-vjJzEF8GOqhNaol/a+W2cGzO+Zw"
+Date: Thu, 19 Dec 2024 00:45:11 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "id": 2,
+        "name": "Electronics",
+        "image": "https://i.imgur.com/ZANVnHE.jpeg",
+        "creationAt": "2024-12-18T10:10:34.000Z",
+        "updatedAt": "2024-12-18T10:10:34.000Z"
+    },
+    {
+        "id": 3,
+        "name": "Change title",
+        "image": "https://i.imgur.com/Qphac99.jpeg",
+        "creationAt": "2024-12-18T10:10:34.000Z",
+        "updatedAt": "2024-12-18T10:33:27.000Z"
+    },
+    {
+        "id": 4,
+        "name": "Shoes",
+        "image": "https://i.imgur.com/qNOjJje.jpeg",
+        "creationAt": "2024-12-18T10:10:34.000Z",
+        "updatedAt": "2024-12-18T10:10:34.000Z"
+    },
+    {
+        "id": 5,
+        "name": "Miscellaneous",
+        "image": "https://i.imgur.com/BG8J0Fj.jpg",
+        "creationAt": "2024-12-18T10:10:34.000Z",
+        "updatedAt": "2024-12-18T10:10:34.000Z"
+    },
+    {
+        "id": 16,
+        "name": "Cosmetics",
+        "image": "https://www.levelshoes.com/media/catalog/product/cache/d6b308721eea44dce854000e2ac7b2ba/5/2/528892drw009522_1.jpg",
+        "creationAt": "2024-12-18T11:43:21.000Z",
+        "updatedAt": "2024-12-18T11:43:21.000Z"
+    },
+    {
+        "id": 46,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-18T18:48:22.000Z",
+        "updatedAt": "2024-12-18T18:48:22.000Z"
+    },
+    {
+        "id": 47,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-18T19:02:28.000Z",
+        "updatedAt": "2024-12-18T19:02:28.000Z"
+    },
+    {
+        "id": 53,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-18T19:05:51.000Z",
+        "updatedAt": "2024-12-18T19:05:51.000Z"
+    },
+    {
+        "id": 54,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-18T19:15:30.000Z",
+        "updatedAt": "2024-12-18T19:15:30.000Z"
+    },
+    {
+        "id": 55,
+        "name": "Clothes",
+        "image": "https://i.imgur.com/ZANVnHE.jpeg",
+        "creationAt": "2024-12-18T19:17:02.000Z",
+        "updatedAt": "2024-12-18T19:17:02.000Z"
+    },
+    {
+        "id": 56,
+        "name": "Chanclas",
+        "image": "https://i.imgur.com/ZANVnHE.jpeg",
+        "creationAt": "2024-12-18T19:19:35.000Z",
+        "updatedAt": "2024-12-18T19:19:35.000Z"
+    },
+    {
+        "id": 58,
+        "name": "Rustic Marble Car",
+        "image": "http://lorempixel.com/640/480/business/",
+        "creationAt": "2024-12-18T20:23:27.000Z",
+        "updatedAt": "2024-12-18T20:23:27.000Z"
+    },
+    {
+        "id": 59,
+        "name": "Durable Wool Clock",
+        "image": "http://lorempixel.com/720/348/food/",
+        "creationAt": "2024-12-18T20:25:39.000Z",
+        "updatedAt": "2024-12-18T20:25:39.000Z"
+    },
+    {
+        "id": 60,
+        "name": "Fantastic Bronze Car",
+        "image": "http://lorempixel.com/g/1024/768/abstract/",
+        "creationAt": "2024-12-18T20:26:28.000Z",
+        "updatedAt": "2024-12-18T20:26:28.000Z"
+    },
+    {
+        "id": 61,
+        "name": "Fantastic Marble Pants",
+        "image": "http://lorempixel.com/g/1920/1200/nature/",
+        "creationAt": "2024-12-18T20:32:15.000Z",
+        "updatedAt": "2024-12-18T20:32:15.000Z"
+    },
+    {
+        "id": 62,
+        "name": "Mediocre Marble Wallet",
+        "image": "http://lorempixel.com/640/480/nightlife/",
+        "creationAt": "2024-12-18T20:35:46.000Z",
+        "updatedAt": "2024-12-18T20:35:46.000Z"
+    },
+    {
+        "id": 67,
+        "name": "Electronics",
+        "image": "https://i.pravatar.cc/300",
+        "creationAt": "2024-12-18T22:00:18.000Z",
+        "updatedAt": "2024-12-18T22:00:18.000Z"
+    },
+    {
+        "id": 68,
+        "name": "string",
+        "image": "https://pravatar.cc/",
+        "creationAt": "2024-12-18T22:04:27.000Z",
+        "updatedAt": "2024-12-18T22:04:27.000Z"
+    },
+    {
+        "id": 69,
+        "name": "category_B",
+        "image": "https://pravatar.cc/",
+        "creationAt": "2024-12-18T22:05:00.000Z",
+        "updatedAt": "2024-12-18T22:05:00.000Z"
+    },
+    {
+        "id": 70,
+        "name": "string",
+        "image": "https://pravatar.cc/",
+        "creationAt": "2024-12-18T22:05:00.000Z",
+        "updatedAt": "2024-12-18T22:05:00.000Z"
+    },
+    {
+        "id": 71,
+        "name": "blush",
+        "image": "https://sdcdn.io/mac/ae/mac_sku_M22011_1x1_0.png?width=1080&height=1080",
+        "creationAt": "2024-12-18T22:06:32.000Z",
+        "updatedAt": "2024-12-18T22:06:33.000Z"
+    },
+    {
+        "id": 83,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-19T00:22:45.000Z",
+        "updatedAt": "2024-12-19T00:22:45.000Z"
+    },
+    {
+        "id": 84,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-19T00:24:54.000Z",
+        "updatedAt": "2024-12-19T00:24:54.000Z"
+    },
+    {
+        "id": 85,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-19T00:25:31.000Z",
+        "updatedAt": "2024-12-19T00:25:31.000Z"
+    },
+    {
+        "id": 86,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-19T00:26:35.000Z",
+        "updatedAt": "2024-12-19T00:26:35.000Z"
+    },
+    {
+        "id": 87,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-19T00:27:49.000Z",
+        "updatedAt": "2024-12-19T00:27:49.000Z"
+    },
+    {
+        "id": 88,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-19T00:28:40.000Z",
+        "updatedAt": "2024-12-19T00:28:40.000Z"
+    }
+]
+[]
+[]
+]]></system-out>
+  </testcase>
+  <testcase name="Verify Create category" classname="Validating Ecom API;s" time="1.105">
+    <system-out><![CDATA[[]
+HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1734569112&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=uEiblDUd0CVchodvR0LOFlxAeiuYQjuw7wwY7uIk93s%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1734569112&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=uEiblDUd0CVchodvR0LOFlxAeiuYQjuw7wwY7uIk93s%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 146
+Etag: W/"92-Mr3ixJNJ/Q1uPhdlJV3vfo4eTJ8"
+Date: Thu, 19 Dec 2024 00:45:12 GMT
+Via: 1.1 vegur
+
+{
+    "name": "Watch",
+    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "id": 89,
+    "creationAt": "2024-12-19T00:45:12.000Z",
+    "updatedAt": "2024-12-19T00:45:12.000Z"
+}
+Watch
+]]></system-out>
+  </testcase>
+  <testcase name="Delete categories" classname="Validating Ecom API;s" time="0.024">
+    <error message="Cannot invoke &quot;io.restassured.response.Response.getStatusCode()&quot; because &quot;this.responsecat&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.getStatusCode()" because "this.responsecat" is null
+	at StepDefinations.StepDefinations.api_call_is_success_with_status_code(StepDefinations.java:73)
+	at ✽.API call is success with status code 200(file:///C:/Users/gopik/eclipse-workspace/E2E_Framework/src/test/java/features/ecomAPI.feature:17)
+]]></error>
+    <system-out><![CDATA[[]
+]]></system-out>
+  </testcase>
+  <testcase name="Create Product #1" classname="Validating Ecom API;s" time="0.167">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1734569113&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wyrASdUdbtkev5GWeHIWMFZaLaOWrtrnb6q0yvMpiDA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1734569113&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wyrASdUdbtkev5GWeHIWMFZaLaOWrtrnb6q0yvMpiDA%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 411
+Etag: W/"19b-U6UUoLxFiKH40lAjt0/wUyOUjmI"
+Date: Thu, 19 Dec 2024 00:45:13 GMT
+Via: 1.1 vegur
+
+{
+    "title": "Product A",
+    "price": 23,
+    "description": "This is the first product",
+    "images": [
+        "[\"https://i.imgur.com/yVeIeDa.jpeg\"",
+        "\"https://placeimg.com/640/480/any\"]"
+    ],
+    "category": {
+        "id": 89,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-19T00:45:12.000Z",
+        "updatedAt": "2024-12-19T00:45:12.000Z"
+    },
+    "id": 199,
+    "creationAt": "2024-12-19T00:45:13.000Z",
+    "updatedAt": "2024-12-19T00:45:13.000Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Create Product #2" classname="Validating Ecom API;s" time="0.153">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1734569113&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wyrASdUdbtkev5GWeHIWMFZaLaOWrtrnb6q0yvMpiDA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1734569113&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wyrASdUdbtkev5GWeHIWMFZaLaOWrtrnb6q0yvMpiDA%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 412
+Etag: W/"19c-sm7NIqCrV02IGlawEKixX1XMtTU"
+Date: Thu, 19 Dec 2024 00:45:13 GMT
+Via: 1.1 vegur
+
+{
+    "title": "Product B",
+    "price": 23,
+    "description": "This is the second product",
+    "images": [
+        "[\"https://i.imgur.com/yVeIeDa.jpeg\"",
+        "\"https://placeimg.com/640/480/any\"]"
+    ],
+    "category": {
+        "id": 89,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-19T00:45:12.000Z",
+        "updatedAt": "2024-12-19T00:45:12.000Z"
+    },
+    "id": 200,
+    "creationAt": "2024-12-19T00:45:13.000Z",
+    "updatedAt": "2024-12-19T00:45:13.000Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Create Product #3" classname="Validating Ecom API;s" time="0.164">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1734569113&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wyrASdUdbtkev5GWeHIWMFZaLaOWrtrnb6q0yvMpiDA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1734569113&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=wyrASdUdbtkev5GWeHIWMFZaLaOWrtrnb6q0yvMpiDA%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 411
+Etag: W/"19b-3FPKqVGikhLjRLc9PyyFVlTrpe8"
+Date: Thu, 19 Dec 2024 00:45:13 GMT
+Via: 1.1 vegur
+
+{
+    "title": "Product C",
+    "price": 23,
+    "description": "This is the third product",
+    "images": [
+        "[\"https://i.imgur.com/yVeIeDa.jpeg\"",
+        "\"https://placeimg.com/640/480/any\"]"
+    ],
+    "category": {
+        "id": 89,
+        "name": "Watch",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2024-12-19T00:45:12.000Z",
+        "updatedAt": "2024-12-19T00:45:12.000Z"
+    },
+    "id": 201,
+    "creationAt": "2024-12-19T00:45:13.000Z",
+    "updatedAt": "2024-12-19T00:45:13.000Z"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
