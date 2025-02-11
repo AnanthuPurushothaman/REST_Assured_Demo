@@ -8,6 +8,6 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/java/features",plugin= "json:target/jsonReports/cucumber-report.json",glue= {"StepDefinations"})
-public class TestRunner {
+public class TestRunner {  
 //,tags = "@DeleteCategories"
 }

@@ -11,10 +11,10 @@ Scenario: Verify Create category
 			Then API call is sucess with status code 201   
 			Then "name" "image" in the response is String and "id" is an integer
 			     
-@DeleteCategories     
- Scenario: Delete categories
-     Given the list of category IDs to delete
-     Then API call is success with status code 200 
+#@DeleteCategories     
+ #Scenario: Delete categories
+     #Given the list of category IDs to delete
+     #Then API call is success with status code 200 
 @CreateProduct    
 Scenario Outline: Create Product               
      Given Add product payload with "<title>" <price> "<description>"

@@ -12,7 +12,7 @@ public class TestDataBuild {
 	public CreateCategories createCategoryPayload() {
 		
 		CreateCategories catreq = new CreateCategories();
-		 catreq.setName("Watch");
+		 catreq.setName("Test Cat");
 		 catreq.setImage("https://i.imgur.com/QkIa5tT.jpeg");
 		 return catreq;
 	}

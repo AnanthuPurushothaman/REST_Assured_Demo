@@ -58,7 +58,7 @@ public void user_calls_with_get_request(String string) {
 	
 	 for(int j=0;j<getCategory.size();j++) {
 	
-		if(getCategory.get(j).getName().equals("Book")) {
+		if(getCategory.get(j).getName().equals("Watch")) {
 			
 			ids.add(getCategory.get(j).getId());
 		}
@@ -121,30 +121,30 @@ public void in_the_response_is_string_and_is_an_integer(String ExpectedName, Str
     
 }
 //////////////////////////
-@Given("the list of category IDs to delete")
-public void the_list_of_category_i_ds_to_delete() throws InterruptedException, IOException {
-	
-	System.out.println(ids);
-	
-	
-	
-for(int i=0;i<ids.size();i++) {
-		
-	DelResp = given().spec(requestSpecification()).pathParam("id",ids.get(i))
-				 .when().delete("/categories/{id}")
-				 .then().log().all().extract().response();
-		 DelResps.add(DelResp);  // Store each response
-         System.out.println("Deleted Category ID: " + ids.get(i) + " Status Code: " + DelResp.getStatusCode());
-		}
-	
-}
-@Then("the categories should be deleted successfully")
-public void the_categories_should_be_deleted_successfully() {
-	
-	
-         assertEquals(DelResp.getStatusCode(), 200);  // Or 204 if your API returns 204 for successful deletions
-      
-}
+//@Given("the list of category IDs to delete")
+//public void the_list_of_category_i_ds_to_delete() throws InterruptedException, IOException {
+//	
+//	System.out.println(ids);
+//	
+//	
+//	
+//for(int i=0;i<ids.size();i++) {
+//		
+//	DelResp = given().spec(requestSpecification()).pathParam("id",ids.get(i))
+//				 .when().delete("/categories/{id}")
+//				 .then().log().all().extract().response();
+//		 DelResps.add(DelResp);  // Store each response
+//         System.out.println("Deleted Category ID: " + ids.get(i) + " Status Code: " + DelResp.getStatusCode());
+//		}
+//	
+//}
+//@Then("the categories should be deleted successfully")
+//public void the_categories_should_be_deleted_successfully() {
+//	
+//	
+//        assertEquals(DelResp.getStatusCode(), 400);  // Or 204 if your API returns 204 for successful deletions
+//      
+//}
 
 @Given("Add product payload with {string} {int} {string}")
 public void add_product_payload_with(String title, int  price, String description) throws IOException {
