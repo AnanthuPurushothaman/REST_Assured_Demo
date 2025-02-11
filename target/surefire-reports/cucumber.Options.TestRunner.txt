@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cucumber.Options.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.14 s <<< FAILURE! -- in cucumber.Options.TestRunner
-Validating Ecom API;s.Delete categories -- Time elapsed: 0.053 s <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "io.restassured.response.Response.getStatusCode()" because "this.responsecat" is null
-	at StepDefinations.StepDefinations.api_call_is_success_with_status_code(StepDefinations.java:73)
-	at ✽.API call is success with status code 200(file:///C:/Users/gopik/eclipse-workspace/E2E_Framework/src/test/java/features/ecomAPI.feature:17)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.37 s -- in cucumber.Options.TestRunner

@@ -58,7 +58,7 @@ public void user_calls_with_get_request(String string) {
 	
 	 for(int j=0;j<getCategory.size();j++) {
 	
-		if(getCategory.get(j).getName().equals("Watch")) {
+		if(getCategory.get(j).getName().equals("Test Cat")) {
 			
 			ids.add(getCategory.get(j).getId());
 		}
